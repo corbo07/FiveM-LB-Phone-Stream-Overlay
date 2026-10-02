@@ -30,6 +30,16 @@ Zum Beenden das Fenster schließen oder Strg+C drücken. Der Server wird dabei m
 | `template.png` | Ausschnitt vom Telefon (Dynamic Island + oberer Rahmen), nach dem gesucht wird |
 | `snapshot.bat` | Macht einen Screenshot, um eine neue `template.png` zu erstellen |
 
+## Eigenes Bild im Overlay
+
+1. Das Bild als `phone.png` benennen.
+2. In den Ordner `overlay` legen, neben `index.html`.
+3. In OBS die Browserquelle aktualisieren (Rechtsklick auf die Quelle, Eigenschaften, „Cache der aktuellen Seite aktualisieren“).
+
+Das Bild wird auf die Telefonfläche (260×500 px) zugeschnitten (`cover`). Am besten passt ein Hochformat im Verhältnis von etwa 1:2.
+Ohne `phone.png` zeigt das Overlay nur ein graues Feld mit 📱.
+Größe und Position lassen sich in `index.html` im `#phone`-Block anpassen.
+
 ## Einstellungen in `detect.py`
 
 | Wert | Bedeutung |
