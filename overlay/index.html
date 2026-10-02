@@ -1,0 +1,21 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Phone Overlay</title>
+<style>
+  html, body { margin: 0; background: transparent; overflow: hidden; }
+  #phone {
+    position: absolute; right: 40px; bottom: -520px; width: 260px; height: 500px;
+    background: #111 url('phone.png') center/cover; border: 6px solid #333; border-radius: 36px;
+    color: #fff; font: 28px sans-serif; display: flex; align-items: center; justify-content: center;
+    transition: bottom .4s ease;
+  }
+  #phone.open { bottom: 40px; }
+</style></head>
+<body>
+<div id="phone">📱</div>
+<script>
+  // Eigenes Bild: lege "phone.png" in den Ordner overlay/
+  const phone = document.getElementById('phone');
+  const es = new EventSource('/events');
+  es.onmessage = e => phone.classList.toggle('open', JSON.parse(e.data).open);
+</script>
+</body></html>
