@@ -5,9 +5,9 @@ Zeigt in OBS ein Overlay, sobald das Telefon in FiveM geöffnet ist.
 
 ## Vorschau
 
-[![Vorschau](docs/preview.gif)](docs/preview.mp4)
+[![Vorschau](docs/preview.gif)](https://streamable.com/dak1h0)
 
-Klick auf das Bild öffnet das Video in voller Qualität ([docs/preview.mp4](docs/preview.mp4)).
+Klick auf das Bild öffnet das Video in voller Qualität auf [Streamable](https://streamable.com/dak1h0).
 
 ## Voraussetzungen
 
