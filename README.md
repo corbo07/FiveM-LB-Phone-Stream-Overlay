@@ -3,6 +3,12 @@
 Zeigt in OBS ein Overlay, sobald das Telefon in FiveM geöffnet ist.
 `detect.py` erkennt das Telefon per Screen-Capture und meldet es an einen lokalen Server, der das Overlay per SSE an OBS schickt.
 
+## Vorschau
+
+[![Vorschau](docs/preview.gif)](docs/preview.mp4)
+
+Klick auf das Bild öffnet das Video in voller Qualität ([docs/preview.mp4](docs/preview.mp4)).
+
 ## Voraussetzungen
 
 - Node.js (`winget install OpenJS.NodeJS.LTS`)
