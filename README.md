@@ -9,6 +9,9 @@ Zeigt in OBS ein Overlay, sobald das Telefon in FiveM geöffnet ist.
 - Python 3 (`winget install Python.Python.3.12`)
 - Python-Pakete: `python -m pip install opencv-python mss numpy`
 
+Alles davon installiert `ANFORDERUNGEN PRUEFEN.bat` automatisch, falls es fehlt.
+Wurde etwas neu installiert, die Datei danach noch einmal starten.
+
 ## Starten
 
 1. `start_all.bat` doppelklicken. Sie startet den Server (minimiert) und die Erkennung.
