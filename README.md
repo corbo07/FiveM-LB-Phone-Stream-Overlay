@@ -14,7 +14,7 @@ Wurde etwas neu installiert, die Datei danach noch einmal starten.
 
 ## Starten
 
-1. `start_all.bat` doppelklicken. Sie startet den Server (minimiert) und die Erkennung.
+1. `OVERLAY STARTEN.bat` doppelklicken. Sie startet den Server (minimiert) und die Erkennung.
 2. In OBS eine Browserquelle mit der URL `http://localhost:3981` hinzufügen.
 3. Telefon im Spiel öffnen und schließen. Im Fenster erscheint `Telefon AN` bzw. `Telefon AUS`.
 
